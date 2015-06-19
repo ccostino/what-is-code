@@ -1,0 +1,34 @@
+WhatIsCode
+
+This was an inspiration driven by a combination of Paul Ford's article on
+Bloomberg Business Week, "What is Code?"[1] and Haddaway's song, "What is
+Love"[2].
+
+[1] http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+[2] https://en.wikipedia.org/wiki/What_Is_Love_%28Haddaway_song%29
+
+
+Usage Instructions/Examples:
+
+    In a REPL or other program:
+
+        # Import the module.
+        from what_is_code import WhatIsCode
+
+        # Instantiate the object.
+        song = WhatIsCode()
+
+        # Output the song.
+        song.sing()
+
+
+    As a standalone script on the shell:
+
+        Make sure the script is executable:
+        chmod +x what_is_code.py
+
+        Run the script:
+        ./what_is_code.py
+
+Enjoy! :-)
+
